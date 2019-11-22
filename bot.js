@@ -31,9 +31,9 @@ bot.on('message', msg =>
 			msg.reply('ಥ﹏ಥ');
 			break;
 		}	
-		default: //default message
+		case 'creeper': //default message
 		{
-			msg.reply('OwO');
+			msg.reply('aww man');
 			break;
 		}
 	}
